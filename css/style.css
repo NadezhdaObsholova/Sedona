@@ -344,7 +344,7 @@ input[type="number"]:focus {
   justify-content: center;
   height: 389px;
   background-color: #81B3D2;
-  background-image: url("../../img/main-intro-img-1200-@1x.jpg");
+  background-image: url("../img/main-intro-img-1200-@1x.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -360,13 +360,13 @@ input[type="number"]:focus {
 }
 @media (min-resolution: 2dppx) {
   .intro__main-background {
-    background-image: url("../../img/main-intro-img-1200-@2x.jpg");
+    background-image: url("../img/main-intro-img-1200-@2x.jpg");
     background-size: cover;
   }
 }
 @media (min-resolution: 3dppx) {
   .intro__main-background {
-    background-image: url("../../img/main-intro-img-1200-@3x.jpg");
+    background-image: url("../img/main-intro-img-1200-@3x.jpg");
     background-size: cover;
   }
 }
