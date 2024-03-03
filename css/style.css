@@ -1,12 +1,12 @@
 @font-face {
   font-family: "PT Sans";
-  src: url("../../fonts/ptsans.woff2") format("woff2"), url("../../fonts/ptsans.woff") format("woff");
+  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "PT Sans";
-  src: url("../../fonts/ptsansbold.woff2") format("woff2"), url("../../fonts/ptsansbold.woff") fromat("woff");
+  src: url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") fromat("woff");
   font-weight: 700;
   font-style: bold;
 }
@@ -208,7 +208,7 @@ input[type="number"]:focus {
 .page-header__logo {
   width: 102px;
   height: 84px;
-  background-image: url("../../img/logo.svg");
+  background-image: url("../img/logo.svg");
   margin: 0 auto;
   z-index: 1;
 }
@@ -225,7 +225,7 @@ input[type="number"]:focus {
   .page-header__logo {
     width: 187px;
     height: 96px;
-    background-image: url("../../img/logo-desktop.svg");
+    background-image: url("../img/logo-desktop.svg");
   }
 }
 .main-nav__list {
@@ -508,7 +508,7 @@ input[type="number"]:focus {
 .intro__bottom {
   height: 37px;
   background-color: #81B3D2;
-  background-image: url("../../img/intro-bottom.svg");
+  background-image: url("../img/intro-bottom.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -712,7 +712,7 @@ input[type="number"]:focus {
   left: 21px;
   width: 39px;
   height: 37px;
-  background-image: url(../../img/icon-house.svg);
+  background-image: url(../img/icon-house.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -731,7 +731,7 @@ input[type="number"]:focus {
   left: 25px;
   width: 32px;
   height: 38px;
-  background-image: url(../../img/icon-gift.svg);
+  background-image: url(../img/icon-gift.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -750,7 +750,7 @@ input[type="number"]:focus {
   left: 21px;
   width: 40px;
   height: 35px;
-  background-image: url(../../img/icon-food.svg);
+  background-image: url(../img/icon-food.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
