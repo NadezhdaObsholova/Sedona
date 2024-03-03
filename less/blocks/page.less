@@ -1,0 +1,55 @@
+/* Fonts*/
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page {
+  height: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "PT Sans", "Arial", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background-color: #E7E5E5;
+}
+
+.page__body {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 767px;
+  background-color: @white;
+
+
+  @media (min-width: @tablet-width) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1199px;
+  }
+
+  @media (min-width: @desktop-width) {
+    box-shadow: 0 4px 14px rgba(1, 1, 1, 0.25);
+  }
+}
+
+.any-page .page__body {
+  display: block;
+}
+
+.page-main {
+  width: 100%;
+}
